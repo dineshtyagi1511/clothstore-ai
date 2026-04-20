@@ -4,4 +4,18 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.136.0",
+    "groq>=1.2.0",
+    "ipykernel>=7.2.0",
+    "jinja2>=3.1.6",
+    "logfire[fastapi]>=4.32.1",
+    "nest-asyncio>=1.6.0",
+    "passlib[bcrypt]>=1.7.4",
+    "pydantic-ai>=0.0.5",
+    "pydantic-ai-slim[tavily]>=1.84.1",
+    "pymongo>=4.16.0",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.26",
+    "uvicorn>=0.44.0",
+]
